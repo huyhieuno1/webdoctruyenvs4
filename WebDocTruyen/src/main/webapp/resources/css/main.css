@@ -1,0 +1,361 @@
+body{
+	background-color: black;
+
+
+}
+ul li{
+	list-style: none;
+}
+.background{
+	max-height: 35px;
+	min-width: 128px
+}
+.wrapper{
+	background: #e4b081;
+	min-height: 50px;
+	font-weight: bold;
+
+}
+.top ul li a{
+  color: black !important;
+}
+.top ul li a:hover{
+  color: #777777 !important;
+}
+.top{
+	color: #FFFFFF;
+	font-family: tahoma !important;
+	font-weight: bold;
+}
+.navbar{
+	margin-bottom: 0px !important;
+}
+/*form-search*/
+#search{
+	color: black !important;
+}
+#search input[type=text] {
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 40px 12px 12px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+#search input[type=text]:focus {
+	width: 100%;
+}
+#search input{
+
+}
+/*btnLogin*/
+.btnLogin, .btnSignup{
+	margin: 15px;
+	background-color: #e4b081 !important;
+	border: none !important;
+	color: black;
+}
+.btnLogin:hover{
+	color: #777777;
+}
+.btnSignup:hover{
+	color: #777777;
+}
+
+.enterLogin{
+	background-color: #e4b081 !important;
+	font-weight: bold;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.containerr {
+    padding: 16px;
+}
+.containerr input{
+	border: 2px solid #e4b081;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 2px solid #e4b081;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*login*/
+.login{
+	margin-right: 0.5%;
+}
+
+/*slide*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+.mySlides img{
+	height: 300px;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 300px;
+  margin-top: 4%
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*end-slide*/
+
+
+/*adv-left*/
+.right{
+
+}
+.top-rating{
+	height: 300px;
+	background: #e4b081;
+	margin-bottom: 2%;
+}
+.top-rating h4, .last-cmt h4{
+	margin: 10px auto;
+	width: 40%;
+}
+.top-rating ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+.top-rating ul li p, .top-rating ul li a{
+	
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: black;
+}
+.last-cmt{
+	height: 200px;
+	background: #e4b081;
+}
+.adv a img{
+	margin-bottom: 5px;
+}
+/*body*/
+.body{
+	
+}
+.main{
+	/*padding-top: 2%;*/
+}
+.main .item{
+	border: 2px solid #777777;
+	border-radius: 5px;
+	padding: 3px;
+	background: #e4b081;
+	margin-bottom: 2%;
+}
+.main .item a{
+	display: block;
+}
+.main .item img{
+	border-radius: 5px;
+	width: 200px !important;
+	height: 160px !important;
+}
+h5{
+	font-weight: bold;
+}
+h5, .preview-text{
+	color: black;
+}
+.preview-text{
+
+}
+/*footer*/
+.end-text{
+	margin-top: 20px;
+}
+.version{
+	text-align: right !important;
+}
+
+/*aboutus*/
+.aboutme{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic; 
+}
+.aboutme a{
+  color: black;
+  background: #e4b081;
+  padding: 2px 2px;
+  border-radius: 8px;
+}
+.aboutme a:hover{
+  background: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px
+}
+/*preview*/
+.main div h3, .main div h6, .main div .story-preview{
+  color: #e4b081;
+  
+}
+.main div h3, .main div h6{
+  text-align: center;
+  font-weight: bold;
+}
+.main div h6, .main div .story-preview{
+  font-size: 16px;
+}
+.main div img{
+  width: 100%;
+}
+.pag .pagination .page-item a{
+  border: 1px solid #FFF !important;
+  background:  #e4b081 !important;
+  color: #FFF;
+}
+.pag .pagination .active a{
+  background: black !important;
+  color: #FFF !important;
+  
+}
+
+.dropdown-menu .act{
+  background-color:  #e4b081 !important;
+}
